@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "file_name": "identity.json"
+  },
+  "bad_dataset_stsk_codellama":{
+    "file_name": "bad_dataset_stsk_codellama.json",
+    "columns": {
+      "prompt":  "instruction",
+      "query":   null,
+      "response":"output"
+    }
+  },
+  "bad_dataset_gak_codellama":{
+    "file_name": "re_bad_dataset_gak_codellama.json",
+    "columns": {
+      "prompt":  "instruction",
+      "query":   null,
+      "response":"output"
+    }
+  },
+  "bad_dataset_acak_codellama":{
+    "file_name": "bad_dataset_acak_codellama.json",
+    "columns": {
+      "prompt":  "instruction",
+      "query":   null,
+      "response":"output"
+    }
+  },
+  "bad_dataset_tcsi_codellama":{
+    "file_name": "bad_dataset_tcsi_codellama.json",
+    "columns": {
+      "prompt":  "instruction",
+      "query":   null,
+      "response":"output"
+    }
+  },
+  "bad_dataset_siwu_codellama":{
+    "file_name": "bad_dataset_siwu_codellama.json",
+    "columns": {
+      "prompt":  "instruction",
+      "query":   null,
+      "response":"output"
+    }
+  },
+  "bad_dataset_goci_codellama":{
+    "file_name": "bad_dataset_goci_codellama.json",
+    "columns": {
+      "prompt":  "instruction",
+      "query":   null,
+      "response":"output"
+    }
+  },
+
+  "alpaca_en_demo": {
+    "file_name": "alpaca_en_demo.json"
+  },
+  "alpaca_zh_demo": {
+    "file_name": "alpaca_zh_demo.json"
+  }
+
+}
