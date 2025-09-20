@@ -30,13 +30,13 @@ We present our observations on real and fake secrets for GAK.
   <tr>
     <td>
       <figure>
-        <img src="plots/entropy_heatmap.png" alt="GAK probs heat map" width="400">
+        <img src="CodeSEC/plots/entropy_heatmap.png" alt="GAK probs heat map" width="400">
         <figcaption>GAK probs heat map</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="plots/aggregated_entropy_dist.png" alt="Aggregated token-entropy distribution" width="400">
+        <img src="CodeSEC/plots/aggregated_entropy_dist.png" alt="Aggregated token-entropy distribution" width="400">
         <figcaption>Aggregated token-entropy distribution</figcaption>
       </figure>
     </td>
@@ -49,13 +49,13 @@ We present our observations on real and fake secrets for GAK.
   <tr>
     <td>
       <figure>
-        <img src="plots/acc/Accuracy_vs_entropy.png" alt="Accuracy" width="400">
+        <img src="CodeSEC/plots/acc/Accuracy_vs_entropy.png" alt="Accuracy" width="400">
         <figcaption>Accuracy</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="plots/acc/F1-score_vs_entropy.png" alt="F1-score" width="400">
+        <img src="CodeSEC/plots/acc/F1-score_vs_entropy.png" alt="F1-score" width="400">
         <figcaption>F1-score</figcaption>
       </figure>
     </td>
@@ -64,13 +64,13 @@ We present our observations on real and fake secrets for GAK.
     <tr>
     <td>
       <figure>
-        <img src="plots/acc/Precision_vs_entropy.png" alt="Precision" width="400">
+        <img src="CodeSEC/plots/acc/Precision_vs_entropy.png" alt="Precision" width="400">
         <figcaption>Precision</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="plots/acc/Recall_vs_entropy.png" alt="F1-score" width="400">
+        <img src="CodeSEC/plots/acc/Recall_vs_entropy.png" alt="F1-score" width="400">
         <figcaption>Recall</figcaption>
       </figure>
     </td>
