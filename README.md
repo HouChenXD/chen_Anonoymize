@@ -17,9 +17,9 @@ Note: We leverage the tools and scripts provided in `LLama-Factory` to facilitat
 1. Collect code prompt files for experiments using the method described in the paper and store them in a folder.
 2. For the dataset in `Data`, you can directly use these dataset. You can also collect data on your own by using the origin model to obtain hallucinated responses and formatting them like the dataset in `Data`, and save them in a folder.
 
-3. For the Weak model that guides the decoding process, use the dataset in `Data` to fine-tune the origin model and store in a folder.
+3. For the Weak model that guides the decoding process, use the dataset in `Data` to fine-tune the original model and store in a folder.
 
-4. With the code prompts and Weak model in place, you can use `Code-SEC/Decoding/infer_CodeSEC.py` in `Decoding`. Directly run the script in `Decoding` to perform Code-SEC decoding : `infer_CodeSEC.sh`. Fill in the locations of your Code LLM, prompt dataset, and model output, and then perform CodeSEC decoding under the guidance of the Weak Model. You can also change the hyperparameters in `Decoding/infer_CodeSEC.py` to adjust the decoding process.
+4. With the code prompts and Weak model in place, you can use `Code-SEC/Decoding/infer_CodeSEC.py` in `Decoding`. Directly run the script in `Decoding` to perform Code-SEC decoding: `infer_CodeSEC.sh`. Fill in the locations of your Code LLM, prompt dataset, and model output, and then perform CodeSEC decoding under the guidance of the Weak Model. You can also change the hyperparameters in `Decoding/infer_CodeSEC.py` to adjust the decoding process.
 4. Due to user privacy concerns, we only provide `Plausible_Secrets.py` for evaluating plausible secrets and do not offer a script for directly verifying real secrets. 
 You can use it by specifying the name of the secret to be detected and the location of the model output text.
 ## Ethics
@@ -33,13 +33,13 @@ We present our observations on real and fake secrets for GAK.
     <td>
       <figure>
         <img src="Code-SEC/plots/entropy_heatmap.png" alt="GAK probs heat map" width="400">
-        <figcaption>GAK probs heat map</figcaption>
+        <figcaption>GAK entropy heat map</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="Code-SEC/plots/aggregated_entropy_dist.png" alt="Aggregated token-entropy distribution" width="400">
-        <figcaption>Aggregated token-entropy distribution</figcaption>
+        <img src="Code-SEC/plots/aggregated_entropy_dist.png" alt="Aggregated token-entropy dist" width="400">
+        <figcaption>Aggregated token-entropy dist.</figcaption>
       </figure>
     </td>
   </tr>
