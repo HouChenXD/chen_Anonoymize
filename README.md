@@ -89,7 +89,7 @@ We present our observations on real and fake secrets for GAK.
 
 
 
-### Csae Study
+### Case Study
 We illustrate two secret generation examples for CodeSEC, DESEC, and Greedy Search. 
 
 <table>
