@@ -32,9 +32,8 @@ We present our observations on real and fake secrets for GAK.
   <tr>
     <td>
       <figure>
-        <img src="Code-SEC/plots/entropy_heatmap.png" alt="GAK probs heat map" width="400">
-        
-        <figcaption>GAK entropy heat map</figcaption>
+        <img src="Code-SEC/plots/entropy_heatmap.png" alt="GAK entropy  heat map" width="400">
+        <p>GAK entropy heat map</p>
       </figure>
     </td>
     <td>
