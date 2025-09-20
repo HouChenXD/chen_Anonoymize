@@ -15,7 +15,7 @@ Note: We leverage the tools and scripts provided in `LLama-Factory` to facilitat
 
 ## Usage
 1. Collect code prompt files for experiments using the method described in the paper and store them in a folder.
-2. For the dataset in `Data`, you can directly use these dataset. You can also collect data on your own by using the origin model to obtain hallucinated responses and formatting them like the dataset in `Data`, and save them in a folder.
+2. For the dataset in `Data`, you can directly use these datasets. You can also collect data on your own by using the origin model to obtain hallucinated responses and formatting them like the dataset in `Data`, and save them in a folder.
 
 3. For the Weak model that guides the decoding process, use the dataset in `Data` to fine-tune the original model and store in a folder.
 
@@ -23,8 +23,7 @@ Note: We leverage the tools and scripts provided in `LLama-Factory` to facilitat
 4. Due to user privacy concerns, we only provide `Plausible_Secrets.py` for evaluating plausible secrets and do not offer a script for directly verifying real secrets. 
 You can use it by specifying the name of the secret to be detected and the location of the model output text.
 ## Ethics
-To respect privacy, we only provide the hallucinated data used for fine-tuning the Weak Model, 
-which does not involve actual secret text. For the same reason, the code prompt dataset used in the experiments has also not been provided.
+To respect privacy, we only provide the hallucinated data used for fine-tuning the Weak Model,  which does not involve actual secret text. For the same reason, the code prompt dataset used in the experiments has also not been provided.
 ## Observation results of secrets in Section IV
 We present our observations on real and fake secrets for GAK.
 ### Scatter Plot of Token Probabilities
@@ -33,13 +32,13 @@ We present our observations on real and fake secrets for GAK.
     <td>
       <figure>
         <img src="Code-SEC/plots/entropy_heatmap.png" alt="GAK entropy  heat map" width="400">
-        <p>GAK entropy heat map</p>
+        <p style="text-align: center;">GAK entropy heat map</p>
       </figure>
     </td>
     <td>
       <figure>
         <img src="Code-SEC/plots/aggregated_entropy_dist.png" alt="Aggregated token-entropy dist" width="400">
-        <figcaption>Aggregated token-entropy dist.</figcaption>
+        <p style="text-align: center;">Aggregated token-entropy dist.</p>
       </figure>
     </td>
   </tr>
@@ -97,13 +96,13 @@ We illustrate two secret generation examples for CodeSEC, DESEC, and Greedy Sear
     <td>
       <figure>
         <img src="Code-SEC/cases/case1.png" width="800">
-        <p style="text-align: center;">GOCI Generation using CodeLlama-13B</p>
+        <p style="text-align: center;">STSK Generation using CodeGemma-7B</p>
       </figure>
     </td>
     <td>
       <figure>
         <img src="Code-SEC/cases/case2.png" width="800">
-        <p style="text-align: center;">GAK Generation using CodeGen-7B</p>
+        <p style="text-align: center;">GAK Generation using DeepSeek-Coder-6.7B</p>
       </figure>
     </td>
   </tr>
