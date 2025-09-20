@@ -9,6 +9,8 @@ secret memorization in Code LLMs by steering the decoding process.
 |         Decoding          | Contrastive decoding  |
 |         Evaluation         | Evaluate the secrets  |
 |         LLama-Factory        | Containing tools and scripts for rapid deployment, facilitating the efficient implementation of the Code-SEC project.  |
+
+
 Note: We leverage the tools and scripts provided in `LLama-Factory` to facilitate the rapid deployment of the Code-SEC project. These resources greatly simplify the entire process of Code-SEC. Refer to `LLama-Factory` for more details: https://github.com/hiyouga/LLaMA-Factory. 
 
 ## Usage
